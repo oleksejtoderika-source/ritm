@@ -1,0 +1,16 @@
+{
+  "appId": "com.ritm.app",
+  "appName": "Ритм",
+  "webDir": "www",
+  "ios": {
+    "contentInset": "never"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "presentationOptions": ["badge", "sound", "banner", "list"]
+    },
+    "Keyboard": {
+      "resize": "native"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "ritm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ритм — напоминания о каждом действии в выбранное время и дни (iPhone, Capacitor)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "sync": "npm run build && npx cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/keyboard": "^8.0.6",
+    "@capacitor/local-notifications": "^8.3.1",
+    "@capacitor/preferences": "^8.0.1",
+    "@fontsource/onest": "^5.3.1",
+    "@fontsource/unbounded": "^5.3.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
+  }
+}
